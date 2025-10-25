@@ -1,5 +1,6 @@
 import Header from "./components/Header";
 import { locales } from "../../config";
+import "./globals.css";
 
 export async function generateStaticParams() {
     return locales.map((locale) => ({ lang: locale}));

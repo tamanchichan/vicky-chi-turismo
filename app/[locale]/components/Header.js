@@ -6,10 +6,10 @@ export default async function Header({ params }) {
     const dictionary = await getDictionary(locale);
     
     return (
-        <div>
+        <div className="container flex">
             <h1>{dictionary.Header.h1}</h1>
             <nav>
-                <ul>
+                <ul className="flex">
                     <li><Link href={`/${locale}/`}>{dictionary.Header.home}</Link></li>
                     <li><Link href={`/${locale}/`}>{dictionary.Header.about}</Link></li>
                     <li><Link href={`/${locale}/`}>{dictionary.Header.tours}</Link></li>

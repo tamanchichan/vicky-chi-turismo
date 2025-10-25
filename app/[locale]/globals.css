@@ -1,0 +1,75 @@
+:root {
+    --black-color: #000;
+    --header-bg-color: #f2f4f6;
+    --header-height: 50px;
+}
+
+body {
+    color: var(--black-color);
+    font-size: 18px;
+}
+
+a { color: var(--black-color); }
+
+h1 {
+    user-select: none;
+    font-size: 40px;
+    font-weight: 300;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: 300;
+    letter-spacing: 2.5px;
+}
+
+h3 {
+    font-size: 25px;
+    font-weight: 300;
+    letter-spacing: 1.5px;
+}
+
+/* #region HEADER */
+header {
+    background-color: var(--header-bg-color);
+    height: var(--header-height);
+    line-height: var(--header-height);
+}
+
+header .flex { justify-content: space-between; }
+
+header nav ul li {
+    cursor: pointer;
+    /* font-size: 20px; */
+    letter-spacing: 2.5px;
+    justify-content: space-around;
+}
+
+header nav ul li + li {
+    margin-left: 30px;
+}
+
+header nav ul li a {
+    display: block;
+    font-size: 25px;
+    transition: all ease-in-out 0.25s;
+}
+
+header nav ul li a:hover {
+    color: #1a73e8;
+}
+
+/* #endregion */
+
+/* #region CLASS */
+.container {
+  margin-inline: auto;
+  width: min(100% - 30px, 1080px);
+}
+
+.flex {
+  display: flex;
+}
+/* #endregion */
