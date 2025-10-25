@@ -42,7 +42,6 @@ header .flex { justify-content: space-between; }
 
 header nav ul li {
     cursor: pointer;
-    /* font-size: 20px; */
     letter-spacing: 2.5px;
     justify-content: space-around;
 }
