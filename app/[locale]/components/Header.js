@@ -11,9 +11,9 @@ export default async function Header({ params }) {
             <nav>
                 <ul className="flex">
                     <li><Link href={`/${locale}/`}>{dictionary.Header.home}</Link></li>
-                    <li><Link href={`/${locale}/`}>{dictionary.Header.about}</Link></li>
-                    <li><Link href={`/${locale}/`}>{dictionary.Header.tours}</Link></li>
-                    <li><Link href={`/${locale}/`}>{dictionary.Header.contact}</Link></li>
+                    <li><Link href={`/${locale}/about`}>{dictionary.Header.about}</Link></li>
+                    <li><Link href={`/${locale}/tours`}>{dictionary.Header.tours}</Link></li>
+                    <li><Link href={`/${locale}/contact`}>{dictionary.Header.contact}</Link></li>
                 </ul>
             </nav>
         </div>
