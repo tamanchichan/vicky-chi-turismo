@@ -1,3 +1,5 @@
+import Header from "./components/Header";
+
 export default async function LocaleLayout({ children, params }) {
     const { locale } = await params;
     return(
@@ -10,7 +12,7 @@ export default async function LocaleLayout({ children, params }) {
                 />
             </head>
             <body>
-                <header></header>
+                <header><Header params={params}></Header></header>
                 <main>
                     {children}
                 </main>
