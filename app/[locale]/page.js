@@ -1,5 +1,9 @@
+import Landscape from "./components/Landscape";
+
 export default function HomePage() {
     return(
-        <section></section>
+        <section>
+            <Landscape></Landscape>
+        </section>
     )
 };

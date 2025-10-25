@@ -1,0 +1,5 @@
+.landscape img {
+    object-fit: fill;
+    height: calc(100vh - 50px);
+    width: 100%;
+}
