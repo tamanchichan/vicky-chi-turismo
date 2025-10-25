@@ -1,6 +1,14 @@
-export default function LocaleLayout({ children }) {
+export default async function LocaleLayout({ children, params }) {
+    const { locale } = await params;
     return(
-        <html>
+        <html lang={locale}>
+            <head>
+                <link
+                    rel="stylesheet"
+                    href="https://cdn.jsdelivr.net/gh/tamanchichan/cdn/reset.css"
+                    media="all"
+                />
+            </head>
             <body>
                 <header></header>
                 <main>
