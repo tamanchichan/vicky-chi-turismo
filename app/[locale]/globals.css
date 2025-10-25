@@ -2,6 +2,8 @@
     --black-color: #000;
     --header-bg-color: #f2f4f6;
     --header-height: 50px;
+    
+    --link-hover-color: #1a73e8;
 }
 
 body {
@@ -52,12 +54,12 @@ header nav ul li + li {
 
 header nav ul li a {
     display: block;
-    font-size: 24px;
+    font-size: 20px;
     transition: all ease-in-out 0.25s;
 }
 
 header nav ul li a:hover {
-    color: #1a73e8;
+    color: var(--link-hover-color);
 }
 
 /* #endregion */
@@ -71,4 +73,32 @@ header nav ul li a:hover {
 .flex {
   display: flex;
 }
+
+.locale-switcher {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.25);
+    position: absolute;
+    top: 5px;
+    right: 15px;
+    overflow: hidden;
+    text-align: center;
+    height: 40px;
+    width: 100px;
+}
+
+.locale-switcher:hover {
+    overflow: auto;
+    height: fit-content;
+}
+
+.locale-switcher li {
+    display: block;
+    line-height: 40px;
+}
+
+.locale-switcher li:hover {
+    background-color: var(--link-hover-color);
+}
+
 /* #endregion */

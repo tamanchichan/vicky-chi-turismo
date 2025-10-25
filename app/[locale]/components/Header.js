@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { getDictionary } from "../../../dictionary";
+import LocaleSwitcher from "./LocaleSwitcher";
 
 export default async function Header({ params }) {
     const { locale } = await params;
@@ -16,6 +17,7 @@ export default async function Header({ params }) {
                     <li><Link href={`/${locale}/contact`}>{dictionary.Header.contact}</Link></li>
                 </ul>
             </nav>
+            <LocaleSwitcher></LocaleSwitcher>
         </div>
     )
 }
