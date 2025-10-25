@@ -1,13 +1,14 @@
-import Link from "next/link";
 import { getDictionary } from "../../../dictionary";
+import Link from "next/link";
 import LocaleSwitcher from "./LocaleSwitcher";
+import styles from "./Header.module.css"
 
 export default async function Header({ params }) {
     const { locale } = await params;
     const dictionary = await getDictionary(locale);
     
     return (
-        <div className="container flex">
+        <div className={`container flex ${styles.header}`}>
             <h1>{dictionary.Header.h1}</h1>
             <nav>
                 <ul className="flex">

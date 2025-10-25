@@ -2,6 +2,7 @@
 
 import { locales, defaultLocale } from "../../../config";
 import Link from "next/link";
+import styles from "./LocaleSwitcher.module.css";
 import { usePathname } from "next/navigation";
 
 export default function LocaleSwitcher() {
@@ -23,7 +24,7 @@ export default function LocaleSwitcher() {
     const sortedLocales = [currentLocale, ...locales.filter(locale => locale !== currentLocale)];
     
     return (
-        <ul className="locale-switcher">
+        <ul className={styles["locale-switcher"]}>
             {sortedLocales.map((locale) => {
                 return (
                     <li key={locale}>

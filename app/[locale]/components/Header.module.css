@@ -1,0 +1,21 @@
+.header { justify-content: space-between; }
+
+.header nav ul li {
+    cursor: pointer;
+    letter-spacing: 2.5px;
+    justify-content: space-around;
+}
+
+.header nav ul li + li {
+    margin-left: 30px;
+}
+
+.header nav ul li a {
+    display: block;
+    font-size: 20px;
+    transition: all 0.25s ease-in-out;
+}
+
+.header nav ul li a:hover {
+    color: var(--link-hover-color);
+}
