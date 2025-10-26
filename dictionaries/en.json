@@ -5,5 +5,77 @@
         "about": "About",
         "tours": "Tours",
         "contact": "Contact"
-    }
+    },
+    "Tours": [
+        {
+            "city": "RJ",
+            "name": "Private Tour",
+            "slug": "passeio_privado",
+            "description": "On our private tours, you can choose your own itinerary and attractions, with an exclusive vehicle and guide just for you.",
+            "img": "passeio_privado.jpg"
+        },
+        {
+            "city": "RJ",
+            "name": "Carioca Tour",
+            "slug": "passeio_carioca",
+            "description": "The Carioca Tour is a complete tour of Rio de Janeiro's main attractions. We've prepared the perfect itinerary for you to experience the \"Marvelous City\" in the best way possible.",
+            "img": "passeio_carioca.jpg"
+        },
+        {
+            "city": "RJ",
+            "name": "Helicopter Tour",
+            "slug": "passeio_de_helicoptero",
+            "description": "On the helicopter flight, experience the thrill of flying over Rio de Janeiro on a panoramic tour. From above, admire the golden beaches, lush landscapes, and the iconic Christ the Redeemer.",
+            "img": "passeio_de_helicoptero.jpg"
+        },
+        {
+            "city": "RJ",
+            "name": "Christ the Redeemer",
+            "slug": "cristo_redentor",
+            "description": "Visiting Christ the Redeemer is a must-do experience in Rio de Janeiro. With convenient transportation and breathtaking views, it's a chance to see one of Brazil's most iconic landmarks.",
+            "img": "cristo_redentor.png"
+        },
+        {
+            "city": "RJ",
+            "name": "Corcovado Train",
+            "slug": "trem_do_corcovado",
+            "description": "This tour includes a journey through Brazil's history, a unique view of the Tijuca Forest and the city, and a visit to Christ the Redeemer.",
+            "img": "trem_do_corcovado.jpg"
+        },
+        {
+            "city": "RJ",
+            "name": "Sugarloaf Mountain",
+            "slug": "pao_de_acucar",
+            "description": "Sugarloaf Mountain is one of Rio de Janeiro's most famous landmarks, known for its panoramic views and the cable car connecting Morro da Urca to the summit.",
+            "img": "pao_de_acucar.jpg"
+        },
+        {
+            "city": "RJ",
+            "name": "Maracanã Stadium",
+            "slug": "estadio_maracana",
+            "description": "The Maracanã Tour is perfect for families and football lovers. It's one of Rio's most popular attractions, featuring locker rooms, the press area, and memorabilia from legendary players like Pelé, Garrincha, and Zico.",
+            "img": "maracana.jpg"
+        },
+        {
+            "city": "RJ",
+            "name": "Rio de Janeiro Cathedral",
+            "slug": "catedral_do_rio_de_janeiro",
+            "description": "Tall and cone-shaped, the modernist Rio de Janeiro Cathedral (Metropolitan Cathedral of Saint Sebastian) is unlike any traditional church. Built between 1964 and 1979 by architect Edgar Fonseca, it's one of the city's most important religious landmarks.",
+            "img": "catedral.jpg"
+        },
+        {
+            "city": "RJ",
+            "name": "Selarón Steps",
+            "slug": "escadaria_selaron",
+            "description": "Decorated with over 2,000 colorful tiles in the colors of the Brazilian flag, the Selarón Steps are one of Rio's most vibrant and iconic landmarks, located between the Lapa and Santa Teresa neighborhoods.",
+            "img": "escadaria_selaron.jpg"
+        },
+        {
+            "city": "RJ",
+            "name": "Guanabara Bay",
+            "slug": "baia_de_guanabara",
+            "description": "A boat tour through Guanabara Bay is a must for those wanting to explore Rio de Janeiro in a unique way. Enjoy stunning views, snacks, and drinks along the way—perfect for families, couples, and groups looking for an unforgettable experience.",
+            "img": "baia_de_guanabara.jpg"
+        }
+    ]
 }

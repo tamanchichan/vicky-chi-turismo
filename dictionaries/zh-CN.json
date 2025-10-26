@@ -5,5 +5,77 @@
         "about": "关于我们",
         "tours": "旅行团",
         "contact": "联系"
-    }
+    },
+    "Tours": [
+        {
+            "city": "RJ",
+            "name": "私人游",
+            "slug": "passeio_privado",
+            "description": "在我们的私人游中，您可以自由选择行程和景点，享受专属车辆和导游的服务。",
+            "img": "passeio_privado.jpg"
+        },
+        {
+            "city": "RJ",
+            "name": "里约城市游",
+            "slug": "passeio_carioca",
+            "description": "里约城市游是一次全面探索里约热内卢主要景点的旅程。我们为您精心设计路线，让您以最佳方式体验“奇迹之城”。",
+            "img": "passeio_carioca.jpg"
+        },
+        {
+            "city": "RJ",
+            "name": "直升机观光",
+            "slug": "passeio_de_helicoptero",
+            "description": "在直升机观光中，您将体验飞越里约热内卢的刺激。从空中俯瞰金色海滩、壮丽景色以及标志性的救世基督像。",
+            "img": "passeio_de_helicoptero.jpg"
+        },
+        {
+            "city": "RJ",
+            "name": "救世基督像",
+            "slug": "cristo_redentor",
+            "description": "参观救世基督像是来里约热内卢不可错过的体验。交通便利，风景壮丽，让您近距离感受巴西最著名的地标之一。",
+            "img": "cristo_redentor.png"
+        },
+        {
+            "city": "RJ",
+            "name": "科尔科瓦多登山火车",
+            "slug": "trem_do_corcovado",
+            "description": "这次旅程带您穿越巴西的历史，欣赏蒂茹卡森林和城市的独特景色，并参观救世基督像。",
+            "img": "trem_do_corcovado.jpg"
+        },
+        {
+            "city": "RJ",
+            "name": "面包山",
+            "slug": "pao_de_acucar",
+            "description": "面包山是里约热内卢最著名的地标之一，以全景视野和连接乌尔卡山与山顶的缆车而闻名。",
+            "img": "pao_de_acucar.jpg"
+        },
+        {
+            "city": "RJ",
+            "name": "马拉卡纳体育场",
+            "slug": "estadio_maracana",
+            "description": "马拉卡纳体育场之旅非常适合家庭和足球迷。这是里约最受欢迎的景点之一，您将参观更衣室、新闻发布区，并欣赏如贝利、加林查和济科等传奇球员的纪念品。",
+            "img": "maracana.jpg"
+        },
+        {
+            "city": "RJ",
+            "name": "里约热内卢主教座堂",
+            "slug": "catedral_do_rio_de_janeiro",
+            "description": "高大锥形的现代主义建筑——里约热内卢主教座堂（圣塞巴斯蒂安大教堂），与传统教堂截然不同。由建筑师埃德加·丰塞卡于1964年至1979年建成，是该市最重要的宗教建筑之一。",
+            "img": "catedral.jpg"
+        },
+        {
+            "city": "RJ",
+            "name": "塞拉隆阶梯",
+            "slug": "escadaria_selaron",
+            "description": "塞拉隆阶梯装饰着超过2000块以巴西国旗颜色为主题的彩色瓷砖，是里约最具活力和标志性的景点之一，连接拉帕和圣特雷莎社区。",
+            "img": "escadaria_selaron.jpg"
+        },
+        {
+            "city": "RJ",
+            "name": "瓜纳巴拉湾",
+            "slug": "baia_de_guanabara",
+            "description": "乘船游览瓜纳巴拉湾是探索里约热内卢独特魅力的绝佳方式。游客可沿途欣赏壮丽景色，享用小吃和饮品，非常适合家庭、情侣和小团体。",
+            "img": "baia_de_guanabara.jpg"
+        }
+]
 }
