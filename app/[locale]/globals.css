@@ -39,6 +39,8 @@ header {
     background-color: var(--header-bg-color);
     height: var(--header-height);
     line-height: var(--header-height);
+    position:sticky;
+    top: 0px;
 }
 /* #endregion */
 
