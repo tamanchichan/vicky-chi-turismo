@@ -1,4 +1,4 @@
-import styles from "./landscape.module.css"
+import styles from "./Landscape.module.css"
 
 export default function Landscape() {
   return (

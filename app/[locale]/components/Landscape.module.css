@@ -1,5 +1,6 @@
 .landscape img {
     object-fit: fill;
-    height: calc(100vh - 50px);
+    height: calc(100vh - var(--header-height));
+    min-height: 600px;
     width: 100%;
 }
