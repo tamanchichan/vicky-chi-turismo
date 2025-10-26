@@ -24,3 +24,7 @@
 .locale-switcher li:hover {
     background-color: var(--link-hover-color);
 }
+
+.locale-switcher li a {
+    display: block;
+}

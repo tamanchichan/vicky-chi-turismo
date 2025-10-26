@@ -20,12 +20,10 @@ export default function LocaleSwitcher() {
         return segments.join("/");
     };
     
-    // Create a list of locales with the current one as first.
-    const sortedLocales = [currentLocale, ...locales.filter(locale => locale !== currentLocale)];
-    
     return (
         <ul className={styles["locale-switcher"]}>
-            {sortedLocales.map((locale) => {
+            <li key={currentLocale}>{currentLocale}</li>
+            {locales.filter((locale) => locale !== currentLocale).map((locale) => {
                 return (
                     <li key={locale}>
                         <Link href={redirectPathname(locale)}>{locale}</Link>
