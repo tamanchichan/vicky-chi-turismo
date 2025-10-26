@@ -26,7 +26,7 @@ export default function LocaleSwitcher() {
             {locales.filter((locale) => locale !== currentLocale).map((locale) => {
                 return (
                     <li key={locale}>
-                        <Link href={redirectPathname(locale)}>{locale}</Link>
+                        <Link href={redirectPathname(locale)} scroll={false}>{locale}</Link>
                     </li>
                 )
             })}
