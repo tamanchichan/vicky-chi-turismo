@@ -1,12 +1,12 @@
 import Landscape from "./components/Landscape";
-import ToursCatalog from "./components/ToursCatalog";
+import ToursCatalogSnap from "./components/ToursCatalogSnap";
 
 export default function HomePage({ params }) {
     return(
         <>
             <Landscape></Landscape>
             <section>
-                <ToursCatalog params={params}></ToursCatalog>
+                <ToursCatalogSnap params={params}></ToursCatalogSnap>
             </section>
         </>
     )
