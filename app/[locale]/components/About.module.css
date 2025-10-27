@@ -1,0 +1,12 @@
+.gallery {
+    column-gap: 15px;
+}
+
+.gallery-item {
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    flex: none;
+    height: 400px;
+    overflow: hidden;
+    width: 400px;
+}

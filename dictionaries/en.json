@@ -80,5 +80,9 @@
             "description": "A boat tour through Guanabara Bay is a must for those wanting to explore Rio de Janeiro in a unique way. Enjoy stunning views, snacks, and drinks along the way—perfect for families, couples, and groups looking for an unforgettable experience.",
             "img": "baia_de_guanabara.jpg"
         }
-    ]
+    ],
+    "About": {
+        "h2": "About Me",
+        "description": "Hi, I'm Vicky, an independent tour guide in Rio de Janeiro. My mission is to make your time in the marvelous city truly unforgettable — from iconic landmarks to hidden gems that only locals know."
+    }
 }

@@ -80,5 +80,9 @@
             "description": "O passeio de barco pela Baía de Guanabara é uma experiência imperdível para quem deseja explorar o Rio de Janeiro de uma forma única. Os visitantes podem desfrutar de vistas deslumbrantes, aperitivos e bebidas ao longo do passeio. O passeio é ideal para famílias, casais, pequenos grupos e turistas que buscam uma experiência inesquecível.",
             "img": "baia_de_guanabara.jpg"
         }
-    ]
+    ],
+    "About": {
+        "h2": "Sobre Mim",
+        "description": "Olá, sou Vicky, uma guia turística independente no Rio de Janeiro. Minha missão é tornar seu tempo nesta maravilhosa cidade verdadeiramente inesquecível — desde os pontos turísticos icônicos até os tesouros escondidos que só os locais conhecem."
+    }
 }
