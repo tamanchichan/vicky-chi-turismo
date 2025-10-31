@@ -7,6 +7,9 @@
     --footer-bg-color: #f2f4f6;
     
     --link-hover-color: #1a73e8;
+    
+    
+    --tour-class-bg-color: #fafbfc;
 }
 
 /* #region HTML */
@@ -71,8 +74,12 @@ section {
 
 /* #region CLASS */
 .button {
-    border: 1px solid #000;
+    background-color: #f0f0f0;
+    border: 1px solid rgba(0, 0, 0, 0.5);
     border-radius: 5px;
+    font-size: 15px;
+    height: fit-content;
+    letter-spacing: 2.5px;
     padding: 15px 20px;
     text-transform: uppercase;
     width: fit-content;

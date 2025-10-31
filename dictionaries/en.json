@@ -1,6 +1,7 @@
 {
     "ButtonComponent": {
-        "details": "See Details"
+        "see_details": "See Details",
+        "see_more": "See More"
     },
     "HeaderComponent": {
         "h1": "Vicky Chi Turismo",

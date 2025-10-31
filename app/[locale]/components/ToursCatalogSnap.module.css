@@ -3,6 +3,7 @@
 }
 
 .tour {
+    background-color: var(--tour-class-bg-color);
     border: 1px solid #000;
     border-radius: 10px;
     flex: none;
@@ -43,4 +44,16 @@
     display: block;
     margin: 15px auto;
     letter-spacing: 1.5px;
+}
+
+.see-more {
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.see-more a {
+    display: block;
+    height: fit-content;
 }

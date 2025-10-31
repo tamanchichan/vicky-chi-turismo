@@ -1,6 +1,7 @@
 {
     "ButtonComponent": {
-        "details": "看详情"
+        "see_details": "看详情",
+        "see_more": "查看更多"
     },
     "HeaderComponent": {
         "h1": "Vicky Chi Turismo",
