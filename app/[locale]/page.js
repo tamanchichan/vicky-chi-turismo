@@ -6,7 +6,7 @@ import styles from "./page.module.css";
 
 export default function HomePage({ params }) {
     return (
-        <>
+        <div className={`${styles["home-page"]}`}>
             <Landscape></Landscape>
             <section>
                 <ToursCatalogSnap params={params}></ToursCatalogSnap>
@@ -17,6 +17,6 @@ export default function HomePage({ params }) {
             <section className={styles["contact-section"]}>
                 <Contact params={params}></Contact>
             </section>
-        </>
+        </div>
     );
 };

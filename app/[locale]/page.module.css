@@ -4,3 +4,7 @@
     background-size: cover;
     text-shadow: 2px 2px 4px #000;
 }
+
+.home-page section:nth-child(odd) { background-color: #fff; }
+
+.home-page section:nth-child(even) { background-color: #f2f4f6; }
