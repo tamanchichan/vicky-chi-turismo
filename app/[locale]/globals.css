@@ -55,6 +55,7 @@ header {
     line-height: var(--header-height);
     position:sticky;
     top: 0px;
+    z-index: 1000;
 }
 
 footer {
