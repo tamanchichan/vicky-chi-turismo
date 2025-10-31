@@ -89,5 +89,20 @@
         "h2": "联系",
         "h3_email": "电子邮件",
         "h3_telephone": "电话"
+    },
+    "Footer": {
+        "h2": "Vicky Chi Turismo",
+        "description": "与我们一起探索巴西",
+
+        "nav_h2": "导航",
+        "nav_home": "首页",
+        "nav_about": "关于我们",
+        "nav_tours": "旅行团",
+        "nav_contact": "联系",
+
+        "contact_h2": "联系",
+        "contact_button": "给我们留言",
+
+        "h4": "版权 © {year} Vicky Chi Turismo。保留所有权利。"
     }
 }

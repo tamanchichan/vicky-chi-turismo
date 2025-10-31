@@ -4,6 +4,8 @@
     --header-bg-color: #f2f4f6;
     --header-height: 50px;
     
+    --footer-bg-color: #f2f4f6;
+    
     --link-hover-color: #1a73e8;
 }
 
@@ -53,6 +55,11 @@ header {
     line-height: var(--header-height);
     position:sticky;
     top: 0px;
+}
+
+footer {
+    background-color: var(--footer-bg-color);
+    padding: 30px;
 }
 
 section {

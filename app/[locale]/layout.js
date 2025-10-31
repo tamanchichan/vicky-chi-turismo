@@ -1,3 +1,4 @@
+import Footer from "./components/Footer";
 import Header from "./components/Header";
 import { locales } from "../../config";
 import "./globals.css";
@@ -22,7 +23,7 @@ export default async function LocaleLayout({ children, params }) {
                 <main>
                     {children}
                 </main>
-                <footer></footer>
+                <footer><Footer params={params}></Footer></footer>
             </body>
         </html>
     )

@@ -1,0 +1,77 @@
+.footer h2 {
+    margin-top: 15px;
+    padding: 0;
+    letter-spacing: 5px;
+}
+
+.footer .footer-menu {
+    justify-content: space-between;
+}
+
+.footer-heading {
+    gap: 15px;
+}
+
+.footer-heading img {
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+}
+
+.footer-subheading p {
+    font-weight: 300;
+}
+
+.footer-nav ul li {
+    font-size: 18px;
+    font-weight: 350;
+    letter-spacing: 2.5px;
+    margin: 15px 0px;
+    width: fit-content;
+}
+
+.footer-nav ul li:hover {
+    font-weight: 400;
+    box-shadow: inset 0 -1px 0 #000;
+}
+
+.footer-contact .flex {
+    justify-content: left;
+}
+
+.footer-contact p {
+    align-items: center;
+    font-weight: 350;
+    gap: 10px;
+    letter-spacing: 1.5px;
+    margin: 15px 0px;
+}
+
+.footer-contact a .button {
+    background-color: #16A34A;
+    color: #fff;
+    text-shadow: 0px 0px 2px #000;
+    margin: 0 auto;
+}
+
+.footer-contact a .button:hover {
+    text-shadow: 0px 2px 2px #000;
+}
+
+.social-media {
+    justify-content: center;
+    gap: 50px;
+    font-size: 50px;
+    margin: 25px 0px;
+}
+
+.copyright {
+    text-align: center;
+    margin: 25px 0px;
+}
+
+.copyright h4 {
+    font-weight: 450;
+    letter-spacing: 1.5px;
+    word-spacing: 2.5px;
+}

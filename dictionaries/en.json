@@ -89,5 +89,20 @@
         "h2": "Contact",
         "h3_email": "E-Mail",
         "h3_telephone": "Telephones"
+    },
+    "Footer": {
+        "h2": "Vicky Chi Turismo",
+        "description": "Discover Brazil with us",
+        
+        "nav_h2": "Navigation",
+        "nav_home": "Home",
+        "nav_about": "About",
+        "nav_tours": "Tours",
+        "nav_contact": "Contact",
+        
+        "contact_h2": "Contact",
+        "contact_button": "Message Us",
+        
+        "h4": "Copyright © {year} Vicky Chi Turismo. All Rights reserved"
     }
 }
