@@ -104,5 +104,8 @@
         "contact_button": "Envie uma mensagem",
 
         "h4": "Copyright © {year} Vicky Chi Turismo. Todos os direitos reservados."
+    },
+    "ToursPage": {
+        "h2": "Passeios Disponíveis:"
     }
 }

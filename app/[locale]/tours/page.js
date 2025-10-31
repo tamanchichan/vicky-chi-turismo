@@ -9,7 +9,7 @@ export default async function Tours({ params }) {
     
     return(
         <div className="container">
-            <h2>Available Tours:</h2>
+            <h2>{dictionary.ToursPage.h2}</h2>
             <div className={`${styles["tours"]}`}>
                 {tours.map((tour, index) => (
                     <div className={`container ${styles["tour"]}`} key={index}>

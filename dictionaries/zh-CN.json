@@ -104,5 +104,8 @@
         "contact_button": "给我们留言",
 
         "h4": "版权 © {year} Vicky Chi Turismo。保留所有权利。"
-    }
+    },
+    "ToursPage": {
+       "h2": "可用旅游："
+}
 }
