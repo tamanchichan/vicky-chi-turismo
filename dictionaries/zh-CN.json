@@ -9,7 +9,7 @@
         "tours": "旅行团",
         "contact": "联系"
     },
-    "ToursComponent": [
+    "ToursData": [
         {
             "city": "RJ",
             "name": "私人游",

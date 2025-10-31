@@ -5,7 +5,7 @@ import { getDictionary } from "@/dictionary";
 export default async function Tours({ params }) {
     const { locale } = await params;
     const dictionary = await getDictionary(locale);
-    const tours = dictionary.ToursComponent;
+    const tours = dictionary.ToursData;
     
     return(
         <div className="container">

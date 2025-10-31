@@ -9,7 +9,7 @@
         "tours": "Tours",
         "contact": "Contact"
     },
-    "ToursComponent": [
+    "ToursData": [
         {
             "city": "RJ",
             "name": "Private Tour",

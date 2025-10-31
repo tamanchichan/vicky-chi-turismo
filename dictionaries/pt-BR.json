@@ -9,7 +9,7 @@
         "tours": "Passeios",
         "contact": "Contato"
     },
-    "ToursComponent": [
+    "ToursData": [
         {
             "city": "RJ",
             "name": "Passeio Privado",
