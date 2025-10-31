@@ -26,10 +26,10 @@ export default async function Footer({ params }) {
                     <h2>{dictionary.FooterComponent.nav_h2}</h2>
                     <nav>
                         <ul>
-                            <li><Link href="/">{dictionary.FooterComponent.nav_home}</Link></li>
-                            <li><Link href="">{dictionary.FooterComponent.nav_about}</Link></li>
-                            <li><Link href="/tours">{dictionary.FooterComponent.nav_tours}</Link></li>
-                            <li><Link href="">{dictionary.FooterComponent.nav_contact}</Link></li>
+                            <li><Link href={`/${locale}/`}>{dictionary.FooterComponent.nav_home}</Link></li>
+                            <li><Link href={`/${locale}/about`}>{dictionary.FooterComponent.nav_about}</Link></li>
+                            <li><Link href={`/${locale}/tours`}>{dictionary.FooterComponent.nav_tours}</Link></li>
+                            <li><Link href={`/${locale}/contact`}>{dictionary.FooterComponent.nav_contact}</Link></li>
                         </ul>
                     </nav>
                 </div>
