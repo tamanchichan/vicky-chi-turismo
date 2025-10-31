@@ -13,7 +13,7 @@ export default async function LocaleLayout({ children, params }) {
             <head>
                 <link
                     rel="stylesheet"
-                    href="https://cdn.jsdelivr.net/gh/tamanchichan/cdn/reset.css"
+                    href="https://cdn.jsdelivr.net/gh/tamanchichan/cdn@latest/reset.css"
                     media="all"
                 />
             </head>
