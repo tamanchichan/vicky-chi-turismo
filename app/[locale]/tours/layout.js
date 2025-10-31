@@ -5,5 +5,5 @@ export default async function ToursLayout({ children, params }) {
         <section>
             {children}
         </section>
-    )
+    );
 };

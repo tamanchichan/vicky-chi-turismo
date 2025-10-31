@@ -5,7 +5,7 @@ import ToursCatalogSnap from "./components/ToursCatalogSnap";
 import styles from "./page.module.css";
 
 export default function HomePage({ params }) {
-    return(
+    return (
         <>
             <Landscape></Landscape>
             <section>
@@ -18,5 +18,5 @@ export default function HomePage({ params }) {
                 <Contact params={params}></Contact>
             </section>
         </>
-    )
+    );
 };

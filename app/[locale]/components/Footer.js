@@ -12,7 +12,7 @@ export default async function Footer({ params }) {
     
     const year = new Date().getFullYear();
     
-    return(
+    return (
         <div className={`container ${styles.footer}`}>
             <div className={`flex ${styles["footer-menu"]}`}>
                 <div className={`flex ${styles["footer-heading"]}`}>
@@ -62,4 +62,4 @@ export default async function Footer({ params }) {
             </div>
         </div>
     );
-}
+};

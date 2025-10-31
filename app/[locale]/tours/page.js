@@ -7,7 +7,7 @@ export default async function Tours({ params }) {
     const dictionary = await getDictionary(locale);
     const tours = dictionary.ToursData;
     
-    return(
+    return (
         <div className="container">
             <h2>{dictionary.ToursPage.h2}</h2>
             <div className={`${styles["tours"]}`}>
@@ -24,4 +24,4 @@ export default async function Tours({ params }) {
             </div>
         </div>
     );
-}
+};

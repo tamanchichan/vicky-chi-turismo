@@ -9,7 +9,7 @@ export async function generateStaticParams() {
 
 export default async function LocaleLayout({ children, params }) {
     const { locale } = await params;
-    return(
+    return (
         <html lang={locale}>
             <head>
                 <link
@@ -26,5 +26,5 @@ export default async function LocaleLayout({ children, params }) {
                 <footer><Footer params={params}></Footer></footer>
             </body>
         </html>
-    )
+    );
 };

@@ -20,5 +20,5 @@ export default async function Header({ params }) {
             </nav>
             <LocaleSwitcher></LocaleSwitcher>
         </div>
-    )
-}
+    );
+};

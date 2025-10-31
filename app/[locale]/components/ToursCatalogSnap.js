@@ -17,5 +17,5 @@ export default async function ToursCatalog({ params }) {
                 </div>
             ))}
         </div>
-    )
-}
+    );
+};

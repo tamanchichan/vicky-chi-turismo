@@ -6,7 +6,7 @@ export default async function About({ params }) {
     const dictionary = await getDictionary(locale);
     const images = [...Array(6)].map((_, index) => `https://picsum.photos/800/800?random=${index}`);
 
-    return(
+    return (
         <div className="container">
             <h2>{dictionary.AboutComponent.h2}</h2>
             <p>{dictionary.AboutComponent.description}</p>
@@ -19,4 +19,4 @@ export default async function About({ params }) {
             </div>
         </div>
     );
-}
+};

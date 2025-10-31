@@ -5,5 +5,5 @@ export default function Landscape() {
     <div className={styles.landscape}>
         <img src='./landscape.png' alt="Landscape image"/>
     </div>
-  )
-}
+  );
+};
