@@ -1,4 +1,4 @@
-import { getDictionary } from "@/dictionary";
+import { getDictionary, getTourDataDictionary } from "@/dictionary";
 import styles from "./page.module.css";
 
 export default async function TourPage({ params }) {
@@ -13,7 +13,9 @@ export default async function TourPage({ params }) {
             </div>
             <div className={`container`}>
                 <h2>{tour.name}</h2>
-                <p>{tour.description}</p>
+                {Object.values(tour.description).map((value, index) => (
+                    <p key={index}>{value}</p>
+                ))}
             </div>
         </>
     );

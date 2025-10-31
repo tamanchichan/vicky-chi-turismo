@@ -15,70 +15,110 @@
             "city": "RJ",
             "name": "Passeio Privado",
             "slug": "passeio_privado",
-            "description": "Em nossos passeios privados, você terá a opção de escolher seu próprio roteiro com os atrativos que quiser, com veículo e guia exclusivos.",
+            "description": {
+                "first": "Em nossos passeios privados, você terá a opção de escolher seu próprio roteiro com os atrativos que quiser, com veículo e guia exclusivos.",
+                "second": "Monte o passeio do seu jeito, escolhendo os pontos turísticos que mais combinam com você, no horário e ritmo que preferir.",
+                "third": "Ideal para casais, famílias ou pequenos grupos que desejam conforto, privacidade e uma experiência totalmente personalizada no Rio de Janeiro."
+            },
             "img": "passeio_privado.jpg"
         },
         {
             "city": "RJ",
             "name": "Passeio Carioca",
             "slug": "passeio_carioca",
-            "description": "O passeio Tour Carioca é um Tour completo pelos principais pontos turísticos do Rio de Janeiro. Preparamos o roteiro para você conhecer a \"Cidade Maravilhosa\" da melhor maneira possível.",
+            "description": {
+                "first": "O passeio Tour Carioca é um Tour completo pelos principais pontos turísticos do Rio de Janeiro. Preparamos o roteiro para você conhecer a \"Cidade Maravilhosa\" da melhor maneira possível.",
+                "second": "Os principais atrativos do Rio em um só dia: Cristo Redentor, Pão de Açúcar, Escadaria Selarón , Praias e Centro Histórico.",
+                "third": "O roteiro mais vendido no Rio também pode ser feito de modo privado, garantindo mais tempo para aproveitar os pontos visitados."
+            },
             "img": "passeio_carioca.jpg"
         },
         {
             "city": "RJ",
             "name": "Passeio de Helicóptero",
             "slug": "passeio_de_helicoptero",
-            "description": "No voo de helicóptero, você vivencia toda a adrenalina de sobrevoar o Rio de Janeiro em um passeio panorâmico. Do alto, é possível contemplar as praias douradas e se encantar com a exuberância das paisagens cariocas e o Cristo Redentor.",
+            "description": {
+                "first": "No voo de helicóptero, você vivencia toda a adrenalina de sobrevoar o Rio de Janeiro em um passeio panorâmico. Do alto, é possível contemplar as praias douradas e se encantar com a exuberância das paisagens cariocas e o Cristo Redentor.",
+                "second": "A experiência oferece uma vista incomparável dos principais pontos turísticos da cidade, ideal para quem busca emoção e paisagens de tirar o fôlego.",
+                "third": "Sobrevoar o Rio é uma oportunidade única de ver a Cidade Maravilhosa de um novo ângulo — perfeito para casais, famílias e apaixonados por aventura."
+            },
             "img": "passeio_de_helicoptero.jpg"
         },
         {
             "city": "RJ",
             "name": "Cristo Redentor",
             "slug": "cristo_redentor",
-            "description": "O passeio ao Cristo Redentor é uma experiência imperdível para quem visita o Rio de Janeiro. Com opções de transporte acessíveis e vistas deslumbrantes, é uma oportunidade de vivenciar um dos ícones mais famosos do Brasil.",
+            "description": {
+                "first": "O passeio ao Cristo Redentor é uma experiência imperdível para quem visita o Rio de Janeiro. Com opções de transporte acessíveis e vistas deslumbrantes, é uma oportunidade de vivenciar um dos ícones mais famosos do Brasil.",
+                "second": "Localizado no topo do Morro do Corcovado, o Cristo Redentor oferece uma das vistas mais espetaculares da cidade, cercado pela natureza da Floresta da Tijuca.",
+                "third": "Visitar o Cristo é sentir a energia e a beleza do Rio de Janeiro em um só lugar — um passeio obrigatório para quem deseja conhecer a essência da cidade."
+            },
             "img": "cristo_redentor.png"
         },
         {
             "city": "RJ",
             "name": "Trem do Corcovado",
             "slug": "trem_do_corcovado",
-            "description": "O passeio inclui uma viagem pela história do Brasil, uma vista única da Floresta da Tijuca e da cidade, e a oportunidade de visitar o Cristo Redentor.",
+            "description": {
+                "first": "O passeio inclui uma viagem pela história do Brasil, uma vista única da Floresta da Tijuca e da cidade, e a oportunidade de visitar o Cristo Redentor.",
+                "second": "O trem histórico parte do Cosme Velho e sobe o Morro do Corcovado em meio à exuberante vegetação, proporcionando uma experiência encantadora.",
+                "third": "Ideal para quem busca um passeio tranquilo, cheio de paisagens naturais e um toque de nostalgia, combinando natureza e cultura."
+            },
             "img": "trem_do_corcovado.jpg"
         },
         {
             "city": "RJ",
             "name": "Pão de Açúcar",
             "slug": "pao_de_acucar",
-            "description": "O Pão de Açúcar é um dos principais cartões-postais do Rio de Janeiro, famoso por suas vistas panorâmicas e pelo teleférico que conecta o Morro da Urca ao Pão de Açúcar.",
+            "description": {
+                "first":  "O Pão de Açúcar é um dos principais cartões-postais do Rio de Janeiro, famoso por suas vistas panorâmicas e pelo teleférico que conecta o Morro da Urca ao Pão de Açúcar.",
+                "second":  "O passeio de bondinho oferece um visual inesquecível da Baía de Guanabara, do Cristo Redentor e das praias cariocas.",
+                "third":  "Uma atração imperdível para quem deseja apreciar o pôr do sol mais bonito do Rio e capturar fotos deslumbrantes da cidade."
+            },
             "img": "pao_de_acucar.jpg"
         },
         {
             "city": "RJ",
             "name": "Estádio Maracanã",
             "slug": "estadio_maracana",
-            "description": "O Tour Maracanã é um passeio para toda a família e um programa especial para os amantes do futebol. O passeio é uma das atrações mais procuradas pelos turistas e morades do Rio de Janeiro. Durante o tour, você poderá conhecer vestiários decorados com camisas de clubes que disputam o Campeonato Brasileiro da Série A, a sala de aquecimento dos jogadores e de coletiva de imprensa, e itens relacionados a jogadores que marcaram nomes na história do estádio, como Pelé, Garrincha e Zico.",
+            "description": {
+                "first": "O Tour Maracanã é um passeio para toda a família e um programa especial para os amantes do futebol. O passeio é uma das atrações mais procuradas pelos turistas e moradores do Rio de Janeiro.",
+                "second": "Durante o tour, você poderá conhecer vestiários, áreas de aquecimento, a sala de imprensa e itens históricos de grandes jogadores como Pelé, Zico e Garrincha.",
+                "third": "Um mergulho na história do futebol brasileiro em um dos estádios mais icônicos do mundo — experiência emocionante para fãs e curiosos."
+            },
             "img": "maracana.jpg"
         },
         {
             "city": "RJ",
             "name": "Catedral do Rio de Janeiro",
             "slug": "catedral_do_rio_de_janeiro",
-            "description": "Alta e em forma de cone, a modernista Catedral do Rio de Janeiro (Catedral Metropolitana de São Sebastião) não se parece com uma igreja típica. O design incomum foi construído entre 1964 e 1979 pelo arquiteto Edgar Fonseca. Uma das estruturas religiosas mais importantes do Rio, é dedicada a São Sebastião, o santo padroeiro da cidade.",
+            "description": {
+                "first": "Alta e em forma de cone, a modernista Catedral do Rio de Janeiro (Catedral Metropolitana de São Sebastião) não se parece com uma igreja típica.",
+                "second": "O design singular e os vitrais coloridos impressionam visitantes de todo o mundo, tornando a Catedral um símbolo da fé e da arquitetura moderna.",
+                "third": "Um ponto de visita obrigatório para quem aprecia arte, cultura e espiritualidade no coração do centro histórico do Rio."
+            },
             "img": "catedral.jpg"
         },
         {
             "city": "RJ",
             "name": "Escadaria Selaron",
             "slug": "escadaria_selaron",
-            "description": "Decorada com mais de 2.000 azulejos coloridos nas cores da bandeira brasileira, a Escadaria Selarón é um dos marcos mais vibrantes e impressionantes do Rio de Janeiro, marcando a fronteira entre os bairros da Lapa e Santa Teresa.",
+            "description": {
+                "first": "Decorada com mais de 2.000 azulejos coloridos nas cores da bandeira brasileira, a Escadaria Selarón é um dos marcos mais vibrantes e impressionantes do Rio de Janeiro.",
+                "second": "Criada pelo artista chileno Jorge Selarón, a escadaria é uma verdadeira obra de arte a céu aberto, ligando os bairros da Lapa e Santa Teresa.",
+                "third": "Um lugar perfeito para fotos, cultura e história, que traduz toda a alma criativa e acolhedora do Rio de Janeiro."
+            },
             "img": "escadaria_selaron.jpg"
         },
         {
             "city": "RJ",
             "name": "Baía de Guanabara",
             "slug": "baia_de_guanabara",
-            "description": "O passeio de barco pela Baía de Guanabara é uma experiência imperdível para quem deseja explorar o Rio de Janeiro de uma forma única. Os visitantes podem desfrutar de vistas deslumbrantes, aperitivos e bebidas ao longo do passeio. O passeio é ideal para famílias, casais, pequenos grupos e turistas que buscam uma experiência inesquecível.",
+            "description": {
+                "first": "O passeio de barco pela Baía de Guanabara é uma experiência imperdível para quem deseja explorar o Rio de Janeiro de uma forma única.",
+                "second": "Durante o passeio, é possível apreciar vistas incríveis do Pão de Açúcar, do Cristo Redentor e das ilhas que compõem a baía.",
+                "third": "Um tour relaxante e inesquecível, ideal para quem quer curtir o Rio de um novo ângulo, com conforto e belas paisagens ao redor."
+            },
             "img": "baia_de_guanabara.jpg"
         }
     ],

@@ -40,7 +40,7 @@
     word-spacing: 2.5px;
 }
 
-.tour button {
+.tour a {
     display: block;
     margin: 15px auto;
     letter-spacing: 1.5px;

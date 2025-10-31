@@ -10,75 +10,115 @@
         "tours": "Tours",
         "contact": "Contact"
     },
-    "ToursData": [
+        "ToursData": [
         {
             "city": "RJ",
             "name": "Private Tour",
             "slug": "passeio_privado",
-            "description": "On our private tours, you can choose your own itinerary and attractions, with an exclusive vehicle and guide just for you.",
+            "description": {
+                "first": "In our private tours, you have the option to choose your own itinerary with the attractions you want, with exclusive vehicle and guide.",
+                "second": "Create the tour your way, selecting the sights that suit you best, at the time and pace you prefer.",
+                "third": "Perfect for couples, families, or small groups seeking comfort, privacy, and a fully personalized experience in Rio de Janeiro."
+            },
             "img": "passeio_privado.jpg"
         },
         {
             "city": "RJ",
             "name": "Carioca Tour",
             "slug": "passeio_carioca",
-            "description": "The Carioca Tour is a complete tour of Rio de Janeiro's main attractions. We've prepared the perfect itinerary for you to experience the \"Marvelous City\" in the best way possible.",
+            "description": {
+                "first": "The Carioca Tour is a complete journey through Rio de Janeiro's main attractions. We prepared the itinerary so you can discover the \"Marvelous City\" in the best possible way.",
+                "second": "See Rio's main highlights in a single day: Christ the Redeemer, Sugarloaf Mountain, Selarón Steps, beaches, and the historic downtown.",
+                "third": "This best-selling tour can also be done privately, giving you more time to enjoy each attraction."
+            },
             "img": "passeio_carioca.jpg"
         },
         {
             "city": "RJ",
             "name": "Helicopter Tour",
             "slug": "passeio_de_helicoptero",
-            "description": "On the helicopter flight, experience the thrill of flying over Rio de Janeiro on a panoramic tour. From above, admire the golden beaches, lush landscapes, and the iconic Christ the Redeemer.",
+            "description": {
+                "first": "On the helicopter ride, you experience the thrill of flying over Rio de Janeiro on a panoramic tour. From above, you can admire the golden beaches and be amazed by the city's breathtaking landscapes and Christ the Redeemer.",
+                "second": "The experience offers an unparalleled view of the city's main attractions, ideal for those seeking excitement and stunning scenery.",
+                "third": "Flying over Rio is a unique opportunity to see the Marvelous City from a new perspective — perfect for couples, families, and adventure lovers."
+            },
             "img": "passeio_de_helicoptero.jpg"
         },
         {
             "city": "RJ",
             "name": "Christ the Redeemer",
             "slug": "cristo_redentor",
-            "description": "Visiting Christ the Redeemer is a must-do experience in Rio de Janeiro. With convenient transportation and breathtaking views, it's a chance to see one of Brazil's most iconic landmarks.",
+            "description": {
+                "first": "Visiting Christ the Redeemer is an unmissable experience for anyone visiting Rio de Janeiro. With accessible transport options and stunning views, it's a chance to experience one of Brazil's most famous icons.",
+                "second": "Located atop Corcovado Hill, Christ the Redeemer offers one of the most spectacular views of the city, surrounded by the Tijuca Forest.",
+                "third": "Visiting the Christ statue lets you feel the energy and beauty of Rio de Janeiro in one place — a must for anyone wanting to know the city's essence."
+            },
             "img": "cristo_redentor.png"
         },
         {
             "city": "RJ",
             "name": "Corcovado Train",
             "slug": "trem_do_corcovado",
-            "description": "This tour includes a journey through Brazil's history, a unique view of the Tijuca Forest and the city, and a visit to Christ the Redeemer.",
+            "description": {
+                "first": "The tour includes a journey through Brazil's history, unique views of Tijuca Forest and the city, and the chance to visit Christ the Redeemer.",
+                "second": "The historic train departs from Cosme Velho and climbs Corcovado Hill through lush vegetation, providing a charming experience.",
+                "third": "Ideal for those seeking a calm tour, full of natural landscapes and a touch of nostalgia, combining nature and culture."
+            },
             "img": "trem_do_corcovado.jpg"
         },
         {
             "city": "RJ",
             "name": "Sugarloaf Mountain",
             "slug": "pao_de_acucar",
-            "description": "Sugarloaf Mountain is one of Rio de Janeiro's most famous landmarks, known for its panoramic views and the cable car connecting Morro da Urca to the summit.",
+            "description": {
+                "first": "Sugarloaf Mountain is one of Rio de Janeiro's main landmarks, famous for its panoramic views and the cable car connecting Morro da Urca to the top of Sugarloaf.",
+                "second": "The cable car ride offers unforgettable views of Guanabara Bay, Christ the Redeemer, and the city's beaches.",
+                "third": "A must-see attraction for those who want to enjoy Rio's most beautiful sunsets and take stunning photos of the city."
+            },
             "img": "pao_de_acucar.jpg"
         },
         {
             "city": "RJ",
             "name": "Maracanã Stadium",
             "slug": "estadio_maracana",
-            "description": "The Maracanã Tour is perfect for families and football lovers. It's one of Rio's most popular attractions, featuring locker rooms, the press area, and memorabilia from legendary players like Pelé, Garrincha, and Zico.",
+            "description": {
+                "first": "The Maracanã Tour is a family-friendly experience and a special program for football fans. It's one of Rio's most sought-after attractions.",
+                "second": "During the tour, you can explore locker rooms, warm-up areas, press rooms, and historical items from legendary players like Pelé, Zico, and Garrincha.",
+                "third": "A dive into the history of Brazilian football in one of the world's most iconic stadiums — an exciting experience for fans and visitors alike."
+            },
             "img": "maracana.jpg"
         },
         {
             "city": "RJ",
             "name": "Rio de Janeiro Cathedral",
             "slug": "catedral_do_rio_de_janeiro",
-            "description": "Tall and cone-shaped, the modernist Rio de Janeiro Cathedral (Metropolitan Cathedral of Saint Sebastian) is unlike any traditional church. Built between 1964 and 1979 by architect Edgar Fonseca, it's one of the city's most important religious landmarks.",
+            "description": {
+                "first": "Tall and conical, the modernist Rio de Janeiro Cathedral (Metropolitan Cathedral of São Sebastião) doesn't look like a typical church.",
+                "second": "The unique design and colorful stained-glass windows impress visitors from all over the world, making the Cathedral a symbol of faith and modern architecture.",
+                "third": "A must-visit for those who appreciate art, culture, and spirituality in the heart of Rio's historic center."
+            },
             "img": "catedral.jpg"
         },
         {
             "city": "RJ",
             "name": "Selarón Steps",
             "slug": "escadaria_selaron",
-            "description": "Decorated with over 2,000 colorful tiles in the colors of the Brazilian flag, the Selarón Steps are one of Rio's most vibrant and iconic landmarks, located between the Lapa and Santa Teresa neighborhoods.",
+            "description": {
+                "first": "Decorated with over 2,000 colorful tiles in the colors of the Brazilian flag, the Selarón Steps are one of Rio de Janeiro's most vibrant and impressive landmarks.",
+                "second": "Created by Chilean artist Jorge Selarón, the staircase is a true open-air art piece, connecting the Lapa and Santa Teresa neighborhoods.",
+                "third": "A perfect spot for photos, culture, and history, capturing the creative and welcoming spirit of Rio de Janeiro."
+            },
             "img": "escadaria_selaron.jpg"
         },
         {
             "city": "RJ",
             "name": "Guanabara Bay",
             "slug": "baia_de_guanabara",
-            "description": "A boat tour through Guanabara Bay is a must for those wanting to explore Rio de Janeiro in a unique way. Enjoy stunning views, snacks, and drinks along the way—perfect for families, couples, and groups looking for an unforgettable experience.",
+            "description": {
+                "first": "A boat tour through Guanabara Bay is an unmissable experience for those wishing to explore Rio de Janeiro in a unique way.",
+                "second": "During the tour, visitors can enjoy incredible views of Sugarloaf Mountain, Christ the Redeemer, and the islands composing the bay.",
+                "third": "A relaxing and unforgettable tour, perfect for experiencing Rio from a new perspective, with comfort and stunning surrounding scenery."
+            },
             "img": "baia_de_guanabara.jpg"
         }
     ],

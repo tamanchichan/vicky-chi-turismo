@@ -18,7 +18,7 @@ export default async function Tours({ params }) {
                                 <Link href={`/${locale}/tours/${tour.slug}`}>
                                     <img src={`/${tour.img}`} alt={tour.name}></img>
                                     <h3>{tour.name}</h3>
-                                    <p>{tour.description}</p>
+                                    <p>{tour.description.first}</p>
                                     {/* <button>See the tour</button> */}
                                 </Link>
                             </div>

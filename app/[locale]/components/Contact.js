@@ -6,7 +6,6 @@ import styles from "./Contact.module.css";
 export default async function Contact({ params }) {
     const { locale } = await params;
     const dictionary = await getDictionary(locale);
-    console.log(companyInfo);
     
     return (
         <div className="container">

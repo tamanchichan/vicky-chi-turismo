@@ -13,8 +13,8 @@ export default async function ToursCatalog({ params }) {
                 <div className={`${styles["tour"]}`} key={index}>
                     <img src={tour.img} alt={tour.name}></img>
                     <h3>{tour.name}</h3>
-                    <p>{tour.description}</p>
-                    <button className="button">{dictionary.ButtonComponent.see_details}</button>
+                    <p>{tour.description.first}</p>
+                    <Link className="button" href={`/${locale}/tours/${tour.slug}`}>{dictionary.ButtonComponent.see_details}</Link>
                 </div>
             ))}
                 <div className={`${styles["tour"]} ${styles["see-more"]}`}>
