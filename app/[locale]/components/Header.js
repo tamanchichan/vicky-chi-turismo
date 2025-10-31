@@ -9,13 +9,13 @@ export default async function Header({ params }) {
     
     return (
         <div className={`container flex ${styles.header}`}>
-            <h1>{dictionary.Header.h1}</h1>
+            <h1>{dictionary.HeaderComponent.h1}</h1>
             <nav>
                 <ul className="flex">
-                    <li><Link href={`/${locale}/`}>{dictionary.Header.home}</Link></li>
-                    <li><Link href={`/${locale}/about`}>{dictionary.Header.about}</Link></li>
-                    <li><Link href={`/${locale}/tours`}>{dictionary.Header.tours}</Link></li>
-                    <li><Link href={`/${locale}/contact`}>{dictionary.Header.contact}</Link></li>
+                    <li><Link href={`/${locale}/`}>{dictionary.HeaderComponent.home}</Link></li>
+                    <li><Link href={`/${locale}/about`}>{dictionary.HeaderComponent.about}</Link></li>
+                    <li><Link href={`/${locale}/tours`}>{dictionary.HeaderComponent.tours}</Link></li>
+                    <li><Link href={`/${locale}/contact`}>{dictionary.HeaderComponent.contact}</Link></li>
                 </ul>
             </nav>
             <LocaleSwitcher></LocaleSwitcher>

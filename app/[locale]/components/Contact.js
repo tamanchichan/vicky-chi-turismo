@@ -10,11 +10,11 @@ export default async function Contact({ params }) {
     
     return (
         <div className="container">
-            <h2>{dictionary.Contact.h2}</h2>
+            <h2>{dictionary.ContactComponent.h2}</h2>
             <div className={styles["contact-info"]}>
-                <h3>{dictionary.Contact.h3_email}</h3>
+                <h3>{dictionary.ContactComponent.h3_email}</h3>
                 <p>{companyInfo.email}</p>
-                <h3>{dictionary.Contact.h3_telephone}</h3>
+                <h3>{dictionary.ContactComponent.h3_telephone}</h3>
                 {companyInfo.phoneNumber.map((item, index) => (
                     <p key={index}>{item}</p>
                 ))}

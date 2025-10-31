@@ -19,29 +19,29 @@ export default async function Footer({ params }) {
                     <img src="/logo.jpg" alt="Vicky Chi Turismo's logo"/>
                     <div className={`${styles["footer-subheading"]}`}>
                         <h2>{companyInfo.name}</h2>
-                        <p>{dictionary.Footer.description}</p>
+                        <p>{dictionary.FooterComponent.description}</p>
                     </div>
                 </div>
                 <div className={`${styles["footer-nav"]}`}>
-                    <h2>{dictionary.Footer.nav_h2}</h2>
+                    <h2>{dictionary.FooterComponent.nav_h2}</h2>
                     <nav>
                         <ul>
-                            <li><Link href="/">{dictionary.Footer.nav_home}</Link></li>
-                            <li><Link href="">{dictionary.Footer.nav_about}</Link></li>
-                            <li><Link href="/tours">{dictionary.Footer.nav_tours}</Link></li>
-                            <li><Link href="">{dictionary.Footer.nav_contact}</Link></li>
+                            <li><Link href="/">{dictionary.FooterComponent.nav_home}</Link></li>
+                            <li><Link href="">{dictionary.FooterComponent.nav_about}</Link></li>
+                            <li><Link href="/tours">{dictionary.FooterComponent.nav_tours}</Link></li>
+                            <li><Link href="">{dictionary.FooterComponent.nav_contact}</Link></li>
                         </ul>
                     </nav>
                 </div>
                 <div className={`${styles["footer-contact"]}`}>
-                    <h2>{dictionary.Footer.contact_h2}</h2>
+                    <h2>{dictionary.FooterComponent.contact_h2}</h2>
                     {companyInfo.phoneNumber.map((item, index) => (
                         <p className={`flex ${styles["phone-number"]}`} key={index}><FaPhoneAlt />{item}</p>
                     ))}
                     <p className="flex"><IoMail />{companyInfo.email}</p>
                     <a href="https://wa.me/5521964111173" target="_blank">
                         <div className={`button ${styles.button}`}>
-                            {dictionary.Footer.contact_button}
+                            {dictionary.FooterComponent.contact_button}
                         </div>
                     </a>
                 </div>
@@ -58,7 +58,7 @@ export default async function Footer({ params }) {
                     </a>
             </div>
             <div className={`${styles["copyright"]}`}>
-                <h4>{dictionary.Footer.h4.replace("{year}", year)}</h4>
+                <h4>{dictionary.FooterComponent.h4.replace("{year}", year)}</h4>
             </div>
         </div>
     );

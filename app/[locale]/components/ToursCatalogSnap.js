@@ -4,7 +4,7 @@ import styles from "./ToursCatalogSnap.module.css";
 export default async function ToursCatalog({ params }) {
     const { locale } = await params;
     const dictionary = await getDictionary(locale);
-    const tours = dictionary.Tours;
+    const tours = dictionary.ToursComponent;
     
     return (
         <div className={`container flex ${styles.tours} snap`}>
@@ -13,7 +13,7 @@ export default async function ToursCatalog({ params }) {
                     <img src={tour.img} alt={tour.name}></img>
                     <h3>{tour.name}</h3>
                     <p>{tour.description}</p>
-                    <button className="button">{dictionary.Button.details}</button>
+                    <button className="button">{dictionary.ButtonComponent.details}</button>
                 </div>
             ))}
         </div>

@@ -1,15 +1,15 @@
 {
-    "Button": {
+    "ButtonComponent": {
         "details": "Ver Detalhes"
     },
-    "Header": {
+    "HeaderComponent": {
         "h1": "Vicky Chi Turismo",
         "home": "Início",
         "about": "Informações",
         "tours": "Passeios",
         "contact": "Contato"
     },
-    "Tours": [
+    "ToursComponent": [
         {
             "city": "RJ",
             "name": "Passeio Privado",
@@ -81,16 +81,16 @@
             "img": "baia_de_guanabara.jpg"
         }
     ],
-    "About": {
+    "AboutComponent": {
         "h2": "Sobre Mim",
         "description": "Olá, sou Vicky, uma guia turística independente no Rio de Janeiro. Minha missão é tornar seu tempo nesta maravilhosa cidade verdadeiramente inesquecível — desde os pontos turísticos icônicos até os tesouros escondidos que só os locais conhecem."
     },
-    "Contact": {
+    "ContactComponent": {
         "h2": "Contato",
         "h3_email": "E-Mail",
         "h3_telephone": "Telefones"
     },
-    "Footer": {
+    "FooterComponent": {
         "h2": "Vicky Chi Turismo",
         "description": "Descubra o Brasil conosco",
 

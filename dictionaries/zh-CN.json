@@ -1,15 +1,15 @@
 {
-    "Button": {
+    "ButtonComponent": {
         "details": "看详情"
     },
-    "Header": {
+    "HeaderComponent": {
         "h1": "Vicky Chi Turismo",
         "home": "首页",
         "about": "关于我们",
         "tours": "旅行团",
         "contact": "联系"
     },
-    "Tours": [
+    "ToursComponent": [
         {
             "city": "RJ",
             "name": "私人游",
@@ -81,16 +81,16 @@
             "img": "baia_de_guanabara.jpg"
         }
     ],
-    "About": {
+    "AboutComponent": {
         "h2": "关于我",
         "description": "你好, 我是 Vicky, 里约热内卢的独立导游. 我的使命是让你在这座美丽的城市度过的时光真正难忘——从标志性的景点到只有当地人才知道的隐藏宝藏."
     },
-    "Contact": {
+    "ContactComponent": {
         "h2": "联系",
         "h3_email": "电子邮件",
         "h3_telephone": "电话"
     },
-    "Footer": {
+    "FooterComponent": {
         "h2": "Vicky Chi Turismo",
         "description": "与我们一起探索巴西",
 

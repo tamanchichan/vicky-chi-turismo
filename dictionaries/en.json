@@ -1,15 +1,15 @@
 {
-    "Button": {
+    "ButtonComponent": {
         "details": "See Details"
     },
-    "Header": {
+    "HeaderComponent": {
         "h1": "Vicky Chi Turismo",
         "home": "Home",
         "about": "About",
         "tours": "Tours",
         "contact": "Contact"
     },
-    "Tours": [
+    "ToursComponent": [
         {
             "city": "RJ",
             "name": "Private Tour",
@@ -81,16 +81,16 @@
             "img": "baia_de_guanabara.jpg"
         }
     ],
-    "About": {
+    "AboutComponent": {
         "h2": "About Me",
         "description": "Hi, I'm Vicky, an independent tour guide in Rio de Janeiro. My mission is to make your time in the marvelous city truly unforgettable — from iconic landmarks to hidden gems that only locals know."
     },
-    "Contact": {
+    "ContactComponent": {
         "h2": "Contact",
         "h3_email": "E-Mail",
         "h3_telephone": "Telephones"
     },
-    "Footer": {
+    "FooterComponent": {
         "h2": "Vicky Chi Turismo",
         "description": "Discover Brazil with us",
         
