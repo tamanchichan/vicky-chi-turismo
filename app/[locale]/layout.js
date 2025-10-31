@@ -1,7 +1,16 @@
+import { companyInfo } from "../../config";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
 import { locales } from "../../config";
 import "./globals.css";
+
+export async function generateMetadata({ params }) {
+    const { locale } = await params;
+    
+    return {
+        title: `${companyInfo.name}`
+    };
+};    
 
 export async function generateStaticParams() {
     return locales.map((locale) => ({ lang: locale}));
