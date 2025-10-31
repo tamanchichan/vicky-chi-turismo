@@ -1,0 +1,6 @@
+.contact-section {
+    color: #fff;
+    background-image: url("/contact-cover.jpg");
+    background-size: cover;
+    text-shadow: 2px 2px 4px #000;
+}

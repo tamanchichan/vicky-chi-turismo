@@ -84,5 +84,10 @@
     "About": {
         "h2": "About Me",
         "description": "Hi, I'm Vicky, an independent tour guide in Rio de Janeiro. My mission is to make your time in the marvelous city truly unforgettable — from iconic landmarks to hidden gems that only locals know."
+    },
+    "Contact": {
+        "h2": "Contact",
+        "h3_email": "E-Mail",
+        "h3_telephone": "Telephones"
     }
 }

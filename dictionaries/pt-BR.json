@@ -84,5 +84,10 @@
     "About": {
         "h2": "Sobre Mim",
         "description": "Olá, sou Vicky, uma guia turística independente no Rio de Janeiro. Minha missão é tornar seu tempo nesta maravilhosa cidade verdadeiramente inesquecível — desde os pontos turísticos icônicos até os tesouros escondidos que só os locais conhecem."
+    },
+    "Contact": {
+        "h2": "Contato",
+        "h3_email": "E-Mail",
+        "h3_telephone": "Telefones"
     }
 }
