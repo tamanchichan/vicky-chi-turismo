@@ -1,0 +1,46 @@
+.tours {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    row-gap: 50px;
+}
+
+.tour {
+    background-color: #fafbfc;
+    border-radius: 5px;
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+    overflow: hidden;
+    transition: all ease-out 0.25s;
+    width: 350px;
+}
+
+.tour:hover {
+    transform: translate(0px, -30px);
+}
+
+.tour img {
+    height: 200px;
+    object-fit: cover;
+    width: 100%;
+}
+
+.tour h3, .tour p {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    letter-spacing: 2.5px;
+    margin: 5px 15px 0px 15px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.tour h3 {
+    -webkit-line-clamp: 1;
+    line-clamp: 1;
+}
+
+.tour p {
+    -webkit-line-clamp: 3;
+    font-size: 15px;
+    line-clamp: 3;
+    word-spacing: 2.5px;
+}
