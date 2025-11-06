@@ -148,5 +148,20 @@
     },
     "ToursPage": {
         "h2": "Passeios Disponíveis:"
+    },
+    "TourPage": {
+        "h2": "Detalhes do Passeio"
+    },
+    "TourInfoComponent": {
+        "h2": "Informações Adicionais",
+        "info": [
+            "Almoço incluso",
+            "Transporte de ida e volta ao hotel incluso",
+            "Passeio disponível com veículo próprio e motorista particular.",
+            "Recomendamos protetor solar, roupas leves para calor e agasalhos para temperaturas mais baixas.",
+            "Passeio totalmente personalizável.",
+            "Duração: 1 a 12 horas, conforme o roteiro escolhido.",
+            "Para preços e detalhes, entre em contato"
+        ]
     }
 }

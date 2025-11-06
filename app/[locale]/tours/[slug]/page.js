@@ -1,5 +1,6 @@
 import { getDictionary, getTourDataDictionary } from "@/dictionary";
 import styles from "./page.module.css";
+import TourInfo from "../../components/TourInfo";
 
 export default async function TourPage({ params }) {
     const { locale, slug } = await params;
@@ -8,15 +9,24 @@ export default async function TourPage({ params }) {
     
     return (
         <>
-            <div className={`${styles["tour-cover"]}`}>
-                <img src={`/${tour.img}`} alt={tour.name}></img>
-            </div>
-            <div className={`container`}>
-                <h2>{tour.name}</h2>
-                {Object.values(tour.description).map((value, index) => (
-                    <p key={index}>{value}</p>
-                ))}
-            </div>
+            <section>
+                <div className={`container ${styles["tour-cover"]}`}>
+                    <h2>{tour.name}</h2>
+                    <img src={`/${tour.img}`} alt={tour.name}></img>
+                </div>
+                
+            </section>
+            <section>
+                <div className={`container`}>
+                    <h2>{dictionary.TourPage.h2}</h2>
+                    {Object.values(tour.description).map((value, index) => (
+                        <p key={index}>{value}</p>
+                    ))}
+                </div>
+            </section>
+                <section>
+                    <TourInfo params={params}></TourInfo>
+                </section>
         </>
     );
 };

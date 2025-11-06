@@ -148,5 +148,20 @@
     },
     "ToursPage": {
         "h2": "Available Tours:"
+    },
+    "TourPage": {
+        "h2": "Tour Details"
+    },
+    "TourInfoComponent": {
+        "h2": "Additional Info",
+        "info": [
+            "Lunch included.",
+            "Round-trip transportation from your hotel included.",
+            "Tour can be arranged with our own vehicle and private driver",
+            "We recommend sunscreen, light clothing for warm days, and jackets for cooler days.",
+            "Fully customizable tour",
+            "Duration: 1 to 12 hours, depending on the chosen itinerary.",
+            "For prices and further details, please contact us"
+        ]
     }
 }
