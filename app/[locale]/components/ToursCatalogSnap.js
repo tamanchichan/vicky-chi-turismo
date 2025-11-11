@@ -11,7 +11,7 @@ export default async function ToursCatalog({ params }) {
         <div className={`container flex ${styles["tours"]} snap`}>
             {tours.slice(0, 5).map((tour, index) => (
                 <div className={`${styles["tour"]}`} key={index}>
-                    <img src={tour.img} alt={tour.name}></img>
+                    <img src={tour.img[0].src} alt={tour.img[0].alt}></img>
                     <h3>{tour.name}</h3>
                     <p>{tour.description.first}</p>
                     <Link className="button" href={`/${locale}/tours/${tour.slug}`}>{dictionary.ButtonComponent.see_details}</Link>

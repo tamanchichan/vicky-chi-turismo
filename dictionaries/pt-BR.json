@@ -20,7 +20,33 @@
                 "second": "Monte o passeio do seu jeito, escolhendo os pontos turísticos que mais combinam com você, no horário e ritmo que preferir.",
                 "third": "Ideal para casais, famílias ou pequenos grupos que desejam conforto, privacidade e uma experiência totalmente personalizada no Rio de Janeiro."
             },
-            "img": "passeio_privado.jpg"
+            "img": [
+                {
+                    "src": "passeio_privado/0.jpg",
+                    "alt": "Passeio Privado photo 1",
+                    "index": 0
+                },
+                {
+                    "src": "passeio_privado/1.jpg",
+                    "alt": "Passeio Privado photo 2",
+                    "index": 1
+                },
+                {
+                    "src": "passeio_privado/2.jpg",
+                    "alt": "Passeio Privado photo 3",
+                    "index": 2
+                },
+                {
+                    "src": "passeio_privado/3.jpg",
+                    "alt": "Passeio Privado photo 4",
+                    "index": 3
+                },
+                {
+                    "src": "passeio_privado/4.jpg",
+                    "alt": "Passeio Privado photo 5",
+                    "index": 4
+                }
+            ]
         },
         {
             "city": "RJ",
@@ -31,7 +57,48 @@
                 "second": "Os principais atrativos do Rio em um só dia: Cristo Redentor, Pão de Açúcar, Escadaria Selarón , Praias e Centro Histórico.",
                 "third": "O roteiro mais vendido no Rio também pode ser feito de modo privado, garantindo mais tempo para aproveitar os pontos visitados."
             },
-            "img": "passeio_carioca.jpg"
+            "img": [
+                {
+                    "src": "passeio_carioca/0.jpg",
+                    "alt": "Passeio Carioca photo 1",
+                    "index": 0
+                },
+                {
+                    "src": "passeio_carioca/1.jpg",
+                    "alt": "Passeio Carioca photo 2",
+                    "index": 1
+                },
+                {
+                    "src": "passeio_carioca/2.jpg",
+                    "alt": "Passeio Carioca photo 3",
+                    "index": 2
+                },
+                {
+                    "src": "passeio_carioca/3.jpg",
+                    "alt": "Passeio Carioca photo 4",
+                    "index": 3
+                },
+                {
+                    "src": "passeio_carioca/4.jpg",
+                    "alt": "Passeio Carioca photo 5",
+                    "index": 4
+                },
+                {
+                    "src": "passeio_carioca/5.jfif",
+                    "alt": "Passeio Carioca photo 6",
+                    "index": 5
+                },
+                {
+                    "src": "passeio_carioca/6.jpg",
+                    "alt": "Passeio Carioca photo 7",
+                    "index": 6
+                },
+                {
+                    "src": "passeio_carioca/7.jpg",
+                    "alt": "Passeio Carioca photo 8",
+                    "index": 7
+                }
+            ]
         },
         {
             "city": "RJ",
@@ -42,7 +109,43 @@
                 "second": "A experiência oferece uma vista incomparável dos principais pontos turísticos da cidade, ideal para quem busca emoção e paisagens de tirar o fôlego.",
                 "third": "Sobrevoar o Rio é uma oportunidade única de ver a Cidade Maravilhosa de um novo ângulo — perfeito para casais, famílias e apaixonados por aventura."
             },
-            "img": "passeio_de_helicoptero.jpg"
+            "img": [
+                {
+                    "src": "passeio_de_helicoptero/0.jpg",
+                    "alt": "Passeio de Helicóptero photo 1",
+                    "index": 0
+                },
+                {
+                    "src": "passeio_de_helicoptero/1.jfif",
+                    "alt": "Passeio de Helicóptero photo 2",
+                    "index": 1
+                },
+                {
+                    "src": "passeio_de_helicoptero/2.jpg",
+                    "alt": "Passeio de Helicóptero photo 3",
+                    "index": 2
+                },
+                {
+                    "src": "passeio_de_helicoptero/3.jfif",
+                    "alt": "Passeio de Helicóptero photo 4",
+                    "index": 3
+                },
+                {
+                    "src": "passeio_de_helicoptero/4.jfif",
+                    "alt": "Passeio de Helicóptero photo 5",
+                    "index": 4
+                },
+                {
+                    "src": "passeio_de_helicoptero/5.jfif",
+                    "alt": "Passeio de Helicóptero photo 6",
+                    "index": 5
+                },
+                {
+                    "src": "passeio_de_helicoptero/6.jpg",
+                    "alt": "Passeio de Helicóptero photo 7",
+                    "index": 6
+                }
+            ]
         },
         {
             "city": "RJ",
@@ -53,7 +156,43 @@
                 "second": "Localizado no topo do Morro do Corcovado, o Cristo Redentor oferece uma das vistas mais espetaculares da cidade, cercado pela natureza da Floresta da Tijuca.",
                 "third": "Visitar o Cristo é sentir a energia e a beleza do Rio de Janeiro em um só lugar — um passeio obrigatório para quem deseja conhecer a essência da cidade."
             },
-            "img": "cristo_redentor.png"
+            "img": [
+                {
+                    "src": "cristo_redentor/0.png",
+                    "alt": "Cristo Redentor photo 1",
+                    "index": 0
+                },
+                {
+                    "src": "cristo_redentor/1.jpg",
+                    "alt": "Cristo Redentor photo 2",
+                    "index": 1
+                },
+                {
+                    "src": "cristo_redentor/2.jpg",
+                    "alt": "Cristo Redentor photo 3",
+                    "index": 2
+                },
+                {
+                    "src": "cristo_redentor/3.jfif",
+                    "alt": "Cristo Redentor photo 4",
+                    "index": 3
+                },
+                {
+                    "src": "cristo_redentor/4.jfif",
+                    "alt": "Cristo Redentor photo 5",
+                    "index": 4
+                },
+                {
+                    "src": "cristo_redentor/5.jpg",
+                    "alt": "Cristo Redentor photo 6",
+                    "index": 5
+                },
+                {
+                    "src": "cristo_redentor/6.jpg",
+                    "alt": "Cristo Redentor photo 7",
+                    "index": 6
+                }
+            ]
         },
         {
             "city": "RJ",
@@ -64,18 +203,95 @@
                 "second": "O trem histórico parte do Cosme Velho e sobe o Morro do Corcovado em meio à exuberante vegetação, proporcionando uma experiência encantadora.",
                 "third": "Ideal para quem busca um passeio tranquilo, cheio de paisagens naturais e um toque de nostalgia, combinando natureza e cultura."
             },
-            "img": "trem_do_corcovado.jpg"
+            "img": [
+                {
+                    "src": "trem_do_corcovado/0.jpg",
+                    "alt": "Trem do Corcovado photo 1",
+                    "index": 0
+                },
+                {
+                    "src": "trem_do_corcovado/1.jfif",
+                    "alt": "Trem do Corcovado photo 2",
+                    "index": 1
+                },
+                {
+                    "src": "trem_do_corcovado/2.jfif",
+                    "alt": "Trem do Corcovado photo 3",
+                    "index": 2
+                },
+                {
+                    "src": "trem_do_corcovado/3.jfif",
+                    "alt": "Trem do Corcovado photo 4",
+                    "index": 3
+                },
+                {
+                    "src": "trem_do_corcovado/4.jfif",
+                    "alt": "Trem do Corcovado photo 5",
+                    "index": 4
+                },
+                {
+                    "src": "trem_do_corcovado/5.jfif",
+                    "alt": "Trem do Corcovado photo 6",
+                    "index": 5
+                }
+            ]
         },
         {
             "city": "RJ",
             "name": "Pão de Açúcar",
-            "slug": "pao_de_acucar",
+            "slug": "bondinho_pao_de_acucar",
             "description": {
-                "first":  "O Pão de Açúcar é um dos principais cartões-postais do Rio de Janeiro, famoso por suas vistas panorâmicas e pelo teleférico que conecta o Morro da Urca ao Pão de Açúcar.",
-                "second":  "O passeio de bondinho oferece um visual inesquecível da Baía de Guanabara, do Cristo Redentor e das praias cariocas.",
-                "third":  "Uma atração imperdível para quem deseja apreciar o pôr do sol mais bonito do Rio e capturar fotos deslumbrantes da cidade."
+                "first": "O Pão de Açúcar é um dos principais cartões-postais do Rio de Janeiro, famoso por suas vistas panorâmicas e pelo teleférico que conecta o Morro da Urca ao Pão de Açúcar.",
+                "second": "O passeio de bondinho oferece um visual inesquecível da Baía de Guanabara, do Cristo Redentor e das praias cariocas.",
+                "third": "Uma atração imperdível para quem deseja apreciar o pôr do sol mais bonito do Rio e capturar fotos deslumbrantes da cidade."
             },
-            "img": "pao_de_acucar.jpg"
+            "img": [
+                {
+                    "src": "bondinho_pao_de_acucar/0.jfif",
+                    "alt": "Pão de Açúcar photo 1",
+                    "index": 0
+                },
+                {
+                    "src": "bondinho_pao_de_acucar/1.jfif",
+                    "alt": "Pão de Açúcar photo 2",
+                    "index": 1
+                },
+                {
+                    "src": "bondinho_pao_de_acucar/2.jpg",
+                    "alt": "Pão de Açúcar photo 3",
+                    "index": 2
+                },
+                {
+                    "src": "bondinho_pao_de_acucar/3.jpg",
+                    "alt": "Pão de Açúcar photo 4",
+                    "index": 3
+                },
+                {
+                    "src": "bondinho_pao_de_acucar/4.jpg",
+                    "alt": "Pão de Açúcar photo 5",
+                    "index": 4
+                },
+                {
+                    "src": "bondinho_pao_de_acucar/5.jpg",
+                    "alt": "Pão de Açúcar photo 6",
+                    "index": 5
+                },
+                {
+                    "src": "bondinho_pao_de_acucar/6.jpg",
+                    "alt": "Pão de Açúcar photo 7",
+                    "index": 6
+                },
+                {
+                    "src": "bondinho_pao_de_acucar/7.jpg",
+                    "alt": "Pão de Açúcar photo 8",
+                    "index": 7
+                },
+                {
+                    "src": "bondinho_pao_de_acucar/8.jpg",
+                    "alt": "Pão de Açúcar photo 9",
+                    "index": 8
+                }
+            ]
         },
         {
             "city": "RJ",
@@ -86,18 +302,100 @@
                 "second": "Durante o tour, você poderá conhecer vestiários, áreas de aquecimento, a sala de imprensa e itens históricos de grandes jogadores como Pelé, Zico e Garrincha.",
                 "third": "Um mergulho na história do futebol brasileiro em um dos estádios mais icônicos do mundo — experiência emocionante para fãs e curiosos."
             },
-            "img": "maracana.jpg"
+            "img": [
+                {
+                    "src": "estadio_maracana/0.jfif",
+                    "alt": "Estádio Maracanã photo 1",
+                    "index": 0
+                },
+                {
+                    "src": "estadio_maracana/1.jpg",
+                    "alt": "Estádio Maracanã photo 2",
+                    "index": 1
+                },
+                {
+                    "src": "estadio_maracana/2.jpg",
+                    "alt": "Estádio Maracanã photo 3",
+                    "index": 2
+                },
+                {
+                    "src": "estadio_maracana/3.jpg",
+                    "alt": "Estádio Maracanã photo 4",
+                    "index": 3
+                },
+                {
+                    "src": "estadio_maracana/4.jfif",
+                    "alt": "Estádio Maracanã photo 5",
+                    "index": 4
+                },
+                {
+                    "src": "estadio_maracana/5.jfif",
+                    "alt": "Estádio Maracanã photo 6",
+                    "index": 5
+                },
+                {
+                    "src": "estadio_maracana/6.jfif",
+                    "alt": "Estádio Maracanã photo 7",
+                    "index": 6
+                },
+                {
+                    "src": "estadio_maracana/7.jfif",
+                    "alt": "Estádio Maracanã photo 8",
+                    "index": 7
+                }
+            ]
         },
         {
             "city": "RJ",
             "name": "Catedral do Rio de Janeiro",
-            "slug": "catedral_do_rio_de_janeiro",
+            "slug": "catedral_metropolitana_de_sao_sebastiao",
             "description": {
                 "first": "Alta e em forma de cone, a modernista Catedral do Rio de Janeiro (Catedral Metropolitana de São Sebastião) não se parece com uma igreja típica.",
                 "second": "O design singular e os vitrais coloridos impressionam visitantes de todo o mundo, tornando a Catedral um símbolo da fé e da arquitetura moderna.",
                 "third": "Um ponto de visita obrigatório para quem aprecia arte, cultura e espiritualidade no coração do centro histórico do Rio."
             },
-            "img": "catedral.jpg"
+            "img": [
+                {
+                    "src": "catedral_metropolitana_de_sao_sebastiao/0.jfif",
+                    "alt": "Catedral do Rio de Janeiro photo 1",
+                    "index": 0
+                },
+                {
+                    "src": "catedral_metropolitana_de_sao_sebastiao/1.jfif",
+                    "alt": "Catedral do Rio de Janeiro photo 2",
+                    "index": 1
+                },
+                {
+                    "src": "catedral_metropolitana_de_sao_sebastiao/2.jfif",
+                    "alt": "Catedral do Rio de Janeiro photo 3",
+                    "index": 2
+                },
+                {
+                    "src": "catedral_metropolitana_de_sao_sebastiao/3.jfif",
+                    "alt": "Catedral do Rio de Janeiro photo 4",
+                    "index": 3
+                },
+                {
+                    "src": "catedral_metropolitana_de_sao_sebastiao/4.jfif",
+                    "alt": "Catedral do Rio de Janeiro photo 5",
+                    "index": 4
+                },
+                {
+                    "src": "catedral_metropolitana_de_sao_sebastiao/5.jfif",
+                    "alt": "Catedral do Rio de Janeiro photo 6",
+                    "index": 5
+                },
+                {
+                    "src": "catedral_metropolitana_de_sao_sebastiao/6.jpg",
+                    "alt": "Catedral do Rio de Janeiro photo 7",
+                    "index": 6
+                },
+                {
+                    "src": "catedral_metropolitana_de_sao_sebastiao/7.jfif",
+                    "alt": "Catedral do Rio de Janeiro photo 8",
+                    "index": 7
+                }
+            ]
         },
         {
             "city": "RJ",
@@ -108,7 +406,43 @@
                 "second": "Criada pelo artista chileno Jorge Selarón, a escadaria é uma verdadeira obra de arte a céu aberto, ligando os bairros da Lapa e Santa Teresa.",
                 "third": "Um lugar perfeito para fotos, cultura e história, que traduz toda a alma criativa e acolhedora do Rio de Janeiro."
             },
-            "img": "escadaria_selaron.jpg"
+            "img": [
+                {
+                    "src": "escadaria_selaron/0.jpg",
+                    "alt": "Escadaria Selaron photo 1",
+                    "index": 0
+                },
+                {
+                    "src": "escadaria_selaron/1.jfif",
+                    "alt": "Escadaria Selaron photo 2",
+                    "index": 1
+                },
+                {
+                    "src": "escadaria_selaron/2.jfif",
+                    "alt": "Escadaria Selaron photo 3",
+                    "index": 2
+                },
+                {
+                    "src": "escadaria_selaron/3.jfif",
+                    "alt": "Escadaria Selaron photo 4",
+                    "index": 3
+                },
+                {
+                    "src": "escadaria_selaron/4.jfif",
+                    "alt": "Escadaria Selaron photo 5",
+                    "index": 4
+                },
+                {
+                    "src": "escadaria_selaron/5.jfif",
+                    "alt": "Escadaria Selaron photo 6",
+                    "index": 5
+                },
+                {
+                    "src": "escadaria_selaron/6.jpg",
+                    "alt": "Escadaria Selaron photo 7",
+                    "index": 6
+                }
+            ]
         },
         {
             "city": "RJ",
@@ -119,7 +453,48 @@
                 "second": "Durante o passeio, é possível apreciar vistas incríveis do Pão de Açúcar, do Cristo Redentor e das ilhas que compõem a baía.",
                 "third": "Um tour relaxante e inesquecível, ideal para quem quer curtir o Rio de um novo ângulo, com conforto e belas paisagens ao redor."
             },
-            "img": "baia_de_guanabara.jpg"
+            "img": [
+                {
+                    "src": "baia_de_guanabara/0.jfif",
+                    "alt": "Baía de Guanabara photo 1",
+                    "index": 0
+                },
+                {
+                    "src": "baia_de_guanabara/1.jfif",
+                    "alt": "Baía de Guanabara photo 2",
+                    "index": 1
+                },
+                {
+                    "src": "baia_de_guanabara/2.jpg",
+                    "alt": "Baía de Guanabara photo 3",
+                    "index": 2
+                },
+                {
+                    "src": "baia_de_guanabara/3.jfif",
+                    "alt": "Baía de Guanabara photo 4",
+                    "index": 3
+                },
+                {
+                    "src": "baia_de_guanabara/4.jpg",
+                    "alt": "Baía de Guanabara photo 5",
+                    "index": 4
+                },
+                {
+                    "src": "baia_de_guanabara/5.jpg",
+                    "alt": "Baía de Guanabara photo 6",
+                    "index": 5
+                },
+                {
+                    "src": "baia_de_guanabara/6.jpg",
+                    "alt": "Baía de Guanabara photo 7",
+                    "index": 6
+                },
+                {
+                    "src": "baia_de_guanabara/7.jpg",
+                    "alt": "Baía de Guanabara photo 8",
+                    "index": 7
+                }
+            ]
         }
     ],
     "AboutComponent": {
@@ -134,16 +509,13 @@
     "FooterComponent": {
         "h2": "Vicky Chi Turismo",
         "description": "Descubra o Brasil conosco",
-
         "nav_h2": "Navegação",
         "nav_home": "Início",
         "nav_about": "Informações",
         "nav_tours": "Passeios",
         "nav_contact": "Contato",
-
         "contact_h2": "Contato",
         "contact_button": "Envie uma mensagem",
-
         "h4": "Copyright © {year} Vicky Chi Turismo. Todos os direitos reservados."
     },
     "ToursPage": {
