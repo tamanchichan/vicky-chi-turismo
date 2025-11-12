@@ -16,7 +16,7 @@ export default async function Tours({ params }) {
                         {tours.map((tour, index) => (
                             <div className={`container ${styles["tour"]}`} key={index}>
                                 <Link href={`/${locale}/tours/${tour.slug}`}>
-                                    <img src={`/${tour.img}`} alt={tour.name}></img>
+                                    <img src={`/${tour.img[0].src}`} alt={tour.img[0].alt}></img>
                                     <h3>{tour.name}</h3>
                                     <p>{tour.description.first}</p>
                                     {/* <button>See the tour</button> */}

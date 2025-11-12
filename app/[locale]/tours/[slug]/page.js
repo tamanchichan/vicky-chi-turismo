@@ -12,7 +12,7 @@ export default async function TourPage({ params }) {
             <section>
                 <div className={`container ${styles["tour-cover"]}`}>
                     <h2>{tour.name}</h2>
-                    <img src={`/${tour.img}`} alt={tour.name}></img>
+                    <img src={`/${tour.img[0].src}`} alt={tour.img[0].alt}></img>
                 </div>
                 
             </section>
